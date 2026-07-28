@@ -159,7 +159,11 @@ Durante el desarrollo de la aplicación se implementaron diferentes mecanismos p
 
 # 📷 Capturas
 
-- Panel principal
+<details>
+<summary>Panel principal (click encima para ver)</summary>
+  <img src="images/VMware.png" width="100%">
+</details>
+
 - Gestión de competiciones
 - Gestión de clubes
 - Gestión de selecciones
