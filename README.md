@@ -1,6 +1,6 @@
-# ⚽ Aplicación Web de Gestión Deportiva
+# ⚽ Aplicación Web CRUD de Fútbol
 
-> Desarrollo de una aplicación web para la gestión de competiciones deportivas utilizando **Flask**, **SQLAlchemy** y **SQLite**, con autenticación de usuarios, operaciones CRUD completas y una interfaz responsive basada en Bootstrap.
+> Desarrollo de una aplicación web CRUD con Flask para la gestión de competiciones, clubes, selecciones y temporadas de fútbol. Implementación de autenticación de usuarios, base de datos relacional con SQLAlchemy, formularios con Flask-WTF y una interfaz responsive utilizando Bootstrap. Integración de funcionalidades de búsqueda, filtrado, subida de imágenes y exportación de datos a CSV.
 
 ---
 
@@ -8,7 +8,6 @@
 
 - [📖 Descripción](#-descripción)
 - [✨ Funcionalidades](#-funcionalidades)
-- [🏗️ Arquitectura](#️-arquitectura)
 - [📂 Estructura del proyecto](#-estructura-del-proyecto)
 - [⚙️ Tecnologías utilizadas](#️-tecnologías-utilizadas)
 - [🗄️ Modelo de datos](#️-modelo-de-datos)
@@ -45,32 +44,6 @@ Durante su desarrollo se aplicaron buenas prácticas de organización del códig
 | 🎯 **Filtros** | Filtrado por país, continente, tipo y alcance de las competiciones. |
 | ↕️ **Ordenación** | Ordenación de registros por diferentes criterios. |
 | 📊 **Exportación** | Exportación de datos en formato CSV. |
-
----
-
-# 🏗️ Arquitectura
-
-> *(Aquí añadiré un diagrama de la arquitectura de la aplicación.)*
-
-```text
-           Usuario
-               │
-               ▼
-     HTML + Bootstrap + Jinja2
-               │
-               ▼
-             Flask
-        ┌──────┴──────┐
-        │             │
-     Routes        Forms
-        │             │
-        └──────┬──────┘
-               ▼
-         SQLAlchemy ORM
-               │
-               ▼
-             SQLite
-```
 
 ---
 
