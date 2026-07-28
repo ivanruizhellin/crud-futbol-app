@@ -12,10 +12,9 @@
 - [⚙️ Tecnologías utilizadas](#️-tecnologías-utilizadas)
 - [🗄️ Modelo de datos](#️-modelo-de-datos)
 - [🔐 Seguridad](#-seguridad)
-- [🚀 Instalación](#-instalación)
 - [📷 Capturas](#-capturas)
 - [🚀 Mejoras futuras](#-mejoras-futuras)
-- [👨‍💻 Autor](#-autor)
+- [👨‍💻 Autor](#%E2%80%8D-autor)
 
 ---
 
@@ -158,74 +157,14 @@ Durante el desarrollo de la aplicación se implementaron diferentes mecanismos p
 
 ---
 
-# 🚀 Instalación
-
-## 1️⃣ Clonar el repositorio
-
-```bash
-git clone https://github.com/ivanruizhellin/nombre-del-repositorio.git
-```
-
-## 2️⃣ Acceder al proyecto
-
-```bash
-cd nombre-del-repositorio
-```
-
-## 3️⃣ Crear un entorno virtual
-
-```bash
-python -m venv venv
-```
-
-## 4️⃣ Activar el entorno virtual
-
-### Windows
-
-```bash
-venv\Scripts\activate
-```
-
-### Linux
-
-```bash
-source venv/bin/activate
-```
-
-## 5️⃣ Instalar las dependencias
-
-```bash
-pip install -r requirements.txt
-```
-
-## 6️⃣ Configurar las variables de entorno
-
-Crear un archivo `.env` con la configuración necesaria.
-
-## 7️⃣ Ejecutar la aplicación
-
-```bash
-flask run
-```
-
-o
-
-```bash
-python run.py
-```
-
----
-
 # 📷 Capturas
 
-> *(Aquí añadiré las principales capturas de la aplicación.)*
-
-- Pantalla de inicio de sesión
 - Panel principal
 - Gestión de competiciones
 - Gestión de clubes
 - Gestión de selecciones
 - Gestión de temporadas
+- Pantalla de inicio de sesión
 - Gestión de usuarios
 - Exportación de datos
 
@@ -234,12 +173,12 @@ python run.py
 # 🚀 Mejoras futuras
 
 - Implementación de roles y permisos avanzados.
-- Panel de estadísticas con gráficos.
-- API REST para integración con aplicaciones externas.
-- Migración a PostgreSQL o MySQL.
+- Migración de SQLite a PostgreSQL.
 - Contenerización mediante Docker.
-- Pruebas automatizadas.
-- Despliegue en un servidor Linux.
+- Despliegue de la aplicación en un servidor Linux.
+- Desarrollo de una API REST para integración con aplicaciones externas.
+- Implementación de pruebas automatizadas.
+- Creación de un panel de estadísticas con gráficos.
 
 ---
 
