@@ -103,9 +103,8 @@ La aplicación utiliza una base de datos relacional implementada con **SQLite** 
 
 Las relaciones entre entidades incluyen asociaciones **1:N** y **N:M**, permitiendo modelar correctamente la información y garantizar su integridad.
 
-Diagrama entidad-relación de la base de datos:
 <details>
-<summary>Ver</summary>
+<summary>Ver diagrama entidad-relación de la base de datos</summary>
   
 ```text
                          ┌──────────────────┐
