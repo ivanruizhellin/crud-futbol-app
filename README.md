@@ -1,6 +1,6 @@
 # ⚽ Aplicación Web CRUD de Fútbol
 
-> Desarrollo de una aplicación web CRUD con Flask para la gestión de competiciones, clubes, selecciones y temporadas de fútbol. Implementación de autenticación de usuarios, base de datos relacional con SQLAlchemy, formularios con Flask-WTF y una interfaz responsive utilizando Bootstrap. Integración de funcionalidades de búsqueda, filtrado, subida de imágenes y exportación de datos a CSV.
+> Desarrollo de una aplicación web con Python y Flask para gestionar competiciones de fútbol, temporadas, clubes, selecciones y usuarios. El proyecto implementa un sistema CRUD completo con autenticación, control de acceso, búsqueda, filtros y gestión de imágenes, siguiendo una estructura modular y buenas prácticas de desarrollo.
 
 ---
 
@@ -21,11 +21,19 @@
 
 # 📖 Descripción
 
-Este proyecto consiste en el desarrollo de una aplicación web para la gestión de competiciones deportivas, realizada como parte de mi formación en **Administración de Sistemas Informáticos en Red (ASIR)**.
+Este proyecto corresponde al trabajo final de la asignatura **Programación de Aplicaciones utilizando frameworks** del ciclo formativo de **Administración de Sistemas Informáticos en Red (ASIR)**.
 
-La aplicación permite administrar competiciones, temporadas, clubes, selecciones y usuarios mediante una interfaz web intuitiva, implementando operaciones **CRUD** completas, autenticación de usuarios y una base de datos relacional.
+La aplicación permite gestionar de forma centralizada la información relacionada con diferentes módulos. Permitiendo crear, consultar, modificar y eliminar información sobre:
 
-Durante su desarrollo se aplicaron buenas prácticas de organización del código siguiendo el patrón **MVC** adaptado a Flask, así como mecanismos de validación, seguridad y gestión de archivos.
+Competiciones.
+Temporadas.
+Clubes de fútbol.
+Selecciones nacionales.
+Usuarios del sistema.
+
+Cada competición puede contener múltiples temporadas, y cada temporada puede estar formada por diferentes clubes o selecciones según el tipo de competición.
+
+Durante su desarrollo se aplicaron buenas prácticas de organización del código siguiendo el patrón **MVC** adaptado a Flask, así como mecanismos de validación, seguridad, gestión de archivos y documentación.
 
 ---
 
