@@ -103,8 +103,7 @@ La aplicación utiliza una base de datos relacional implementada con **SQLite** 
 
 Las relaciones entre entidades incluyen asociaciones **1:N** y **N:M**, permitiendo modelar correctamente la información y garantizar su integridad.
 
-<details>
-<summary>Ver diagrama entidad-relación de la base de datos</summary>
+Diagrama entidad-relación de la base de datos:
   
 ```text
                          ┌──────────────────┐
@@ -120,13 +119,13 @@ Las relaciones entre entidades incluyen asociaciones **1:N** y **N:M**, permitie
                          ├──────────────────┤
                          │ PK idTemporada   │
                          │ FK idCompeticion │
-                         └───────┬──────────┘
-                                 │
-                 ┌───────────────┴────────────────┐
+                         └────────┬─────────┘
+                                  │
+                 ┌────────────────┴───────────────┐
                  │                                │
                  │ N:M                            │ N:M
                  │                                │
-        ┌────────▼─────────┐            ┌────────▼──────────┐
+        ┌────────▼─────────┐            ┌─────────▼─────────┐
         │  CLUBTEMPORADA   │            │ SELECCIONTEMPORADA│
         ├──────────────────┤            ├───────────────────┤
         │ PK idClubTemp    │            │ PK idSelTemp      │
@@ -136,13 +135,12 @@ Las relaciones entre entidades incluyen asociaciones **1:N** y **N:M**, permitie
                  │                                │
                  │ N:1                            │ N:1
                  │                                │
-        ┌────────▼─────────┐            ┌────────▼─────────┐
-        │      CLUB        │            │   SELECCION      │
-        ├──────────────────┤            ├──────────────────┤
-        │ PK idClub        │            │ PK idSeleccion   │
-        └──────────────────┘            └──────────────────┘
+        ┌────────▼─────────┐            ┌─────────▼─────────┐
+        │      CLUB        │            │     SELECCION     │
+        ├──────────────────┤            ├───────────────────┤
+        │ PK idClub        │            │ PK idSeleccion    │
+        └──────────────────┘            └───────────────────┘
 ```
-</details>
 
 ---
 
