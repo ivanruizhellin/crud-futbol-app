@@ -87,11 +87,12 @@ La aplicación sigue una estructura basada en el patrón **MVC (Modelo - Vista -
 | Categoría | Tecnologías |
 |-----------|-------------|
 | 🐍 **Backend** | Python · Flask |
-| 🗄️ **Base de datos** | SQLite · SQLAlchemy |
+| 🎨 **Frontend** | Jinja2 · HTML5 · CSS3 · Bootstrap 5 · Bootstrap Icons |
+| 🗄️ **Base de datos** | SQLite |
+| 📦 **ORM** | SQLAlchemy |
 | 📝 **Formularios** | Flask-WTF |
 | 🔐 **Autenticación** | Flask-Login |
 | 🔄 **Migraciones** | Flask-Migrate |
-| 🎨 **Frontend** | HTML5 · CSS3 · Bootstrap 5 · Bootstrap Icons · Jinja2 |
 | 🛡️ **Seguridad** | Werkzeug · python-dotenv |
 
 ---
