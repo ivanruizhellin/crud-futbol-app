@@ -105,7 +105,7 @@ Las relaciones entre entidades incluyen asociaciones **1:N** y **N:M**, permitie
 
 ```text
                          ┌──────────────────┐
-                         │   COMPETICION     │
+                         │   COMPETICION    │
                          ├──────────────────┤
                          │ PK idCompeticion │
                          └────────┬─────────┘
@@ -124,11 +124,11 @@ Las relaciones entre entidades incluyen asociaciones **1:N** y **N:M**, permitie
                  │ N:M                            │ N:M
                  │                                │
         ┌────────▼─────────┐            ┌────────▼──────────┐
-        │  CLUBTEMPORADA   │            │ SELECCIONTEMPORADA │
+        │  CLUBTEMPORADA   │            │ SELECCIONTEMPORADA│
         ├──────────────────┤            ├───────────────────┤
-        │ PK idClubTemp    │            │ PK idSelTemp       │
-        │ FK idTemporada   │            │ FK idTemporada     │
-        │ FK idClub        │            │ FK idSeleccion     │
+        │ PK idClubTemp    │            │ PK idSelTemp      │
+        │ FK idTemporada   │            │ FK idTemporada    │
+        │ FK idClub        │            │ FK idSeleccion    │
         └────────┬─────────┘            └─────────┬─────────┘
                  │                                │
                  │ N:1                            │ N:1
