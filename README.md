@@ -106,6 +106,7 @@ Las relaciones entre entidades incluyen asociaciones **1:N** y **N:M**, permitie
 Diagrama entidad-relación de la base de datos:
 <details>
 <summary>Ver</summary>
+  
 ```text
                          ┌──────────────────┐
                          │   COMPETICION    │
