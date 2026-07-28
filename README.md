@@ -25,11 +25,11 @@ Este proyecto corresponde al trabajo final de la asignatura **Programación de A
 
 La aplicación permite gestionar de forma centralizada la información relacionada con diferentes módulos. Permitiendo crear, consultar, modificar y eliminar información sobre:
 
-- Competiciones.
-- Temporadas.
-- Clubes de fútbol.
-- Selecciones nacionales.
-- Usuarios del sistema.
+- 🏆 Competiciones.
+- 📅 Temporadas.
+- ⚽ Clubes de fútbol.
+- 🎌 Selecciones nacionales.
+- 👤 Usuarios del sistema.
 
 Cada competición puede contener múltiples temporadas, y cada temporada puede estar formada por diferentes clubes o selecciones según el tipo de competición.
 
@@ -101,17 +101,51 @@ La aplicación sigue una estructura basada en el patrón **MVC (Modelo - Vista -
 
 La aplicación utiliza una base de datos relacional implementada con **SQLite** y gestionada mediante **SQLAlchemy** como ORM.
 
-Entre las principales entidades del sistema se encuentran:
-
-- 👤 Usuarios
-- ⚽ Competiciones
-- 📅 Temporadas
-- 🏆 Clubes
-- 🌍 Selecciones
-
 Las relaciones entre entidades incluyen asociaciones **1:N** y **N:M**, permitiendo modelar correctamente la información y garantizar su integridad.
 
-> *(Aquí añadiré el diagrama entidad-relación de la base de datos.)*
+```text
+                         ┌──────────────────┐
+                         │   COMPETICION     │
+                         ├──────────────────┤
+                         │ PK idCompeticion │
+                         └────────┬─────────┘
+                                  │
+                                  │ 1:N
+                                  │
+                         ┌────────▼─────────┐
+                         │    TEMPORADA     │
+                         ├──────────────────┤
+                         │ PK idTemporada   │
+                         │ FK idCompeticion │
+                         └───────┬──────────┘
+                                 │
+                 ┌───────────────┴────────────────┐
+                 │                                │
+                 │ N:M                            │ N:M
+                 │                                │
+        ┌────────▼─────────┐            ┌────────▼──────────┐
+        │  CLUBTEMPORADA   │            │ SELECCIONTEMPORADA │
+        ├──────────────────┤            ├───────────────────┤
+        │ PK idClubTemp    │            │ PK idSelTemp       │
+        │ FK idTemporada   │            │ FK idTemporada     │
+        │ FK idClub        │            │ FK idSeleccion     │
+        └────────┬─────────┘            └─────────┬─────────┘
+                 │                                │
+                 │ N:1                            │ N:1
+                 │                                │
+        ┌────────▼─────────┐            ┌────────▼─────────┐
+        │      CLUB        │            │   SELECCION      │
+        ├──────────────────┤            ├──────────────────┤
+        │ PK idClub        │            │ PK idSeleccion   │
+        └──────────────────┘            └──────────────────┘
+
+
+                         ┌──────────────────┐
+                         │     USUARIO      │
+                         ├──────────────────┤
+                         │ PK idUsuario     │
+                         └──────────────────┘
+```
 
 ---
 
