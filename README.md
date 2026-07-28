@@ -112,11 +112,11 @@ Diagrama entidad-relación de la base de datos:
                          │   COMPETICION    │
                          ├──────────────────┤
                          │ PK idCompeticion │
-                         └────────┬─────────┘
-                                  │
-                                  │ 1:N
-                                  │
-                         ┌────────▼─────────┐
+                         └────────┬─────────┘                          ┌──────────────────┐
+                                  │                                    │     USUARIO      │
+                                  │ 1:N                                ├──────────────────┤
+                                  │                                    │ PK idUsuario     │
+                         ┌────────▼─────────┐                          └──────────────────┘
                          │    TEMPORADA     │
                          ├──────────────────┤
                          │ PK idTemporada   │
@@ -142,13 +142,6 @@ Diagrama entidad-relación de la base de datos:
         ├──────────────────┤            ├──────────────────┤
         │ PK idClub        │            │ PK idSeleccion   │
         └──────────────────┘            └──────────────────┘
-
-
-                         ┌──────────────────┐
-                         │     USUARIO      │
-                         ├──────────────────┤
-                         │ PK idUsuario     │
-                         └──────────────────┘
 ```
 </details>
 
