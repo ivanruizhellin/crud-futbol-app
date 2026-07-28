@@ -43,11 +43,9 @@ Durante su desarrollo se aplicaron buenas prácticas de organización del códig
 |--------------|-------------|
 | 🔐 **Autenticación** | Inicio y cierre de sesión mediante Flask-Login. |
 | 👥 **Gestión de usuarios** | Administración de usuarios con control de acceso. |
-| ⚽ **Competiciones** | Alta, edición, eliminación y consulta de competiciones. |
-| 🏆 **Clubes** | Gestión completa de clubes deportivos. |
-| 🌍 **Selecciones** | Administración de selecciones nacionales. |
-| 📅 **Temporadas** | Gestión de temporadas y validación de duplicados. |
+| ⚽ **CRUD completo** | Operaciones de creación, consulta, edición y eliminación para todas las entidades de la aplicación. |
 | 🖼️ **Gestión de imágenes** | Subida, sustitución y eliminación de escudos, banderas y logotipos. |
+| ✅ **Validaciones** | Control de campos obligatorios, prevención de registros duplicados y validación de extensiones de imágenes. |
 | 🔍 **Búsqueda** | Búsqueda global de información. |
 | 🎯 **Filtros** | Filtrado por país, continente, tipo y alcance de las competiciones. |
 | ↕️ **Ordenación** | Ordenación de registros por diferentes criterios. |
