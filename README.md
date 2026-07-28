@@ -25,11 +25,11 @@ Este proyecto corresponde al trabajo final de la asignatura **Programación de A
 
 La aplicación permite gestionar de forma centralizada la información relacionada con diferentes módulos. Permitiendo crear, consultar, modificar y eliminar información sobre:
 
-Competiciones.
-Temporadas.
-Clubes de fútbol.
-Selecciones nacionales.
-Usuarios del sistema.
+- Competiciones.
+- Temporadas.
+- Clubes de fútbol.
+- Selecciones nacionales.
+- Usuarios del sistema.
 
 Cada competición puede contener múltiples temporadas, y cada temporada puede estar formada por diferentes clubes o selecciones según el tipo de competición.
 
