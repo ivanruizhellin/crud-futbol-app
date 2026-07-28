@@ -65,15 +65,17 @@ app/
 ├── templates/
 │
 ├── __init__.py
-├── models.py
+├── app.db
 ├── forms.py
-└── routes.py
+├── models.py
+├── routes.py
+└── utils.py
 │
 migrations/
 │
+.env
 requirements.txt
 run.py
-.env
 ```
 
 La aplicación sigue una estructura basada en el patrón **MVC (Modelo - Vista - Controlador)**, separando la lógica de negocio, los modelos de datos, los formularios y la interfaz de usuario para facilitar el mantenimiento y la escalabilidad del proyecto.
