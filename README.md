@@ -161,10 +161,15 @@ Durante el desarrollo de la aplicación se implementaron diferentes mecanismos p
 
 <details>
 <summary>Panel principal</summary>
-  <img src="images/VMware.png" width="100%">
+  <img src="images/panel_principal.png" width="100%">
+</details>
+<details>
+<summary>Competiciones</summary>
+  <img src="images/competiciones.png" width="33%">
+  <img src="images/info_competiciones.png" width="33%">
+  <img src="images/crear_competiciones.png" width="33%">
 </details>
 
-- Competiciones
 - Clubes
 - Selecciones
 - Temporadas
