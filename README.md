@@ -165,9 +165,9 @@ Durante el desarrollo de la aplicación se implementaron diferentes mecanismos p
 </details>
 <details>
 <summary>Competiciones</summary>
-  <img src="images/competiciones.png" width="33%">
-  <img src="images/info_competiciones.png" width="33%">
-  <img src="images/crear_competiciones.png" width="33%">
+  <img src="images/competiciones.png" width="30%">
+  <img src="images/info_competiciones.png" width="30%">
+  <img src="images/crear_competiciones.png" width="30%">
 </details>
 
 - Clubes
