@@ -199,6 +199,7 @@ Durante el desarrollo de la aplicación se implementaron diferentes mecanismos p
 <summary>Búsqueda</summary>
   <img src="images/busqueda.png" width="100%">
 </details>
+<details>
 <summary>Exportar datos en CSV</summary>
   <img src="images/descargar_csv.png" width="100%">
 </details>
