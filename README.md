@@ -169,13 +169,39 @@ Durante el desarrollo de la aplicación se implementaron diferentes mecanismos p
   <img src="images/info_competiciones.png" width="100%">
   <img src="images/crear_competiciones.png" width="100%">
 </details>
-
-- Clubes
-- Selecciones
-- Temporadas
-- Pantalla de inicio de sesión
-- Gestión de usuarios
-- Exportación de datos
+<details>
+<summary>Clubes</summary>
+  <img src="images/clubes.png" width="100%">
+  <img src="images/info_clubes.png" width="100%">
+  <img src="images/crear_clubes.png" width="100%">
+</details>
+<details>
+<summary>Selecciones</summary>
+  <img src="images/selecciones.png" width="100%">
+  <img src="images/info_selecciones.png" width="100%">
+  <img src="images/crear_selecciones.png" width="100%">
+</details>
+<details>
+<summary>Temporadas</summary>
+  <img src="images/info_temporadas.png" width="100%">
+  <img src="images/crear_temporadas.png" width="100%">
+</details>
+<details>
+<summary>Usuarios</summary>
+  <img src="images/usuarios.png" width="100%">
+  <img src="images/crear_usuarios.png" width="100%">
+</details>
+<details>
+<summary>Inicio de sesión</summary>
+  <img src="images/iniciar_sesion.png" width="100%">
+</details>
+<details>
+<summary>Búsqueda</summary>
+  <img src="images/busqueda.png" width="100%">
+</details>
+<summary>Exportar datos en CSV</summary>
+  <img src="images/descargar_csv.png" width="100%">
+</details>
 
 ---
 
